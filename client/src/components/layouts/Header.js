@@ -79,7 +79,7 @@ const Header = () => {
                     >
                         <MDBNavbarItem>
                             <MDBNavbarLink href="/">
-                                <p className="header-text">Trang chủ</p>
+                                <p className="header-text">Trang Chủ</p>
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
@@ -102,14 +102,14 @@ const Header = () => {
                                                 <MDBNavbarItem>
                                                     <MDBNavbarLink href="/addTour">
                                                         <p className="header-text">
-                                                            Thêm tour
+                                                            Thêm Tour
                                                         </p>
                                                     </MDBNavbarLink>
                                                 </MDBNavbarItem>
                                                 <MDBNavbarItem>
                                                     <MDBNavbarLink href="/addRoom">
                                                         <p className="header-text">
-                                                            Thêm phòng
+                                                            Thêm Phòng
                                                         </p>
                                                     </MDBNavbarLink>
                                                 </MDBNavbarItem>
@@ -118,7 +118,7 @@ const Header = () => {
                                         <MDBNavbarItem>
                                             <MDBNavbarLink href="/dashboard">
                                                 <p className="header-text">
-                                                    Dashboard
+                                                    DashBoard
                                                 </p>
                                             </MDBNavbarLink>
                                         </MDBNavbarItem>
@@ -132,7 +132,7 @@ const Header = () => {
                                 <input
                                     type="text"
                                     className="form-control"
-                                    placeholder="Tìm kiếm Tour"
+                                    placeholder="Tìm Kiếm"
                                     value={search}
                                     onChange={(e) => setSearch(e.target.value)}
                                 />
@@ -163,14 +163,14 @@ const Header = () => {
                                     <li className="header__navbar-user-item">
                                         <Link to="/user/information">
                                             <p className="mt-3 mb-1">
-                                               <b>Tài khoản của tôi</b>
+                                               <b>Tài Khoản Của Tôi</b>
                                             </p>
                                         </Link>
                                     </li>
                                     <li className="header__navbar-user-item">
                                         <Link to={`/changePassword/${user?.result?._id}`}>
                                             <p className="mt-0 mb-1">
-                                                <b>Đổi mật khẩu</b>
+                                                <b>Đổi Mật Khẩu</b>
                                             </p>
                                         </Link>
                                     </li>
@@ -180,7 +180,7 @@ const Header = () => {
                                                 className="mt-0 mb-1"
                                                 onClick={() => handleLogout()}
                                             >
-                                                <b>Đăng xuất</b>
+                                                <b>Đăng Xuất</b>
                                             </p>
                                         </Link>
                                     </li>
@@ -189,7 +189,7 @@ const Header = () => {
                         ) : (
                             <MDBNavbarItem>
                                 <MDBNavbarLink href="/login">
-                                    <p className="header-text">Đăng nhập</p>
+                                    <p className="header-text">Đăng Nhập</p>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                         )}
