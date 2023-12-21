@@ -60,6 +60,11 @@ const Header = () => {
                         fontSize: "22px",
                     }}
                 >
+       <img
+            src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148629241.jpg?w=740&t=st=1702996281~exp=1702996881~hmac=5e34459936ea8a8f150beca9248ebd2371f0e4a4482ac8161225f190d4266e54"
+            alt="Logo"
+            style={{ marginRight: "35px", height: "70px" }}
+          />
                     TRAVEL
                 </MDBNavbarBrand>
                 <MDBNavbarToggler
